@@ -16,11 +16,11 @@ The project includes preprocessing, model design, training loops, evaluation, an
 ---
 
 ## Models
-- 1. Fully connected neural network (MLP)
-  2. Convolutional neural network (CNN)
-- ReLU activations
-- Cross-entropy loss
-- Optimized using stochastic SGD, Adam, AdamW, and RMSPROP
+1. Fully connected neural network (MLP)
+2. Convolutional neural network (CNN)
+- Activations: ReLU
+- Loss function: Cross-entropy
+- Optimizers: SGD, Adam, AdamW, and RMSPROP
 - Includes optional AMP on CUDA
 - Includes learning-rate schedulers
 ---
@@ -32,7 +32,6 @@ The trained models achieve high classification accuracy, demonstrating effective
 
 ---
 
-## How to Run
-1. Clone the repository:
+## Clone the repository:
 ```bash
 git clone https://github.com/your-username/mnist-pytorch-classifier.git
